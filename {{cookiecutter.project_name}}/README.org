@@ -1,0 +1,30 @@
+# [[https://melpa.org/#/{{cookiecutter.project_name}}][file:https://melpa.org/packages/{{cookiecutter.project_name}}-badge.svg]] [[https://stable.melpa.org/#/{{cookiecutter.project_name}}][file:https://stable.melpa.org/packages/{{cookiecutter.project_name}}-badge.svg]]
+
+* {{cookiecutter.project_full_name}}
+
+{{cookiecutter.project_full_name}} is TBD.
+
+* Requirements
+
+{{cookiecutter.project_full_name}} requires TBD.
+
+* Install
+
+{{cookiecutter.project_full_name}} TBD.
+
+#+begin_src elisp :lexical no
+  (require '{{cookiecutter.project_name}})
+  ({{cookiecutter.project_name}}-init)
+#+end_src
+
+  
+* Sponsorship
+
+If you enjoy using {{cookiecutter.project_full_name}}, please consider buying me a coffee to help support its development and maintenance.
+
+[[file:docs/images/default-yellow.png]]
+
+  
+* Acknowledgments
+
+A heartfelt thanks to all the contributors to the GNU Emacs ecosystem from which {{cookiecutter.project_full_name}} builds from. This work would not be possible without your efforts.

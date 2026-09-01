@@ -1,0 +1,25 @@
+* kickingvegas Cookiecutter Elisp Template
+
+Project template used by kickingvegas for Emacs Lisp projects.
+
+VERSION: 0.0.0
+
+* Requirements
+
+- [[https://cookiecutter.readthedocs.io/en/stable/][cookiecutter]] 2.7.1+
+
+* Usage
+
+#+begin_src shell
+  cookiecutter kvelisp-cookiecutter
+#+end_src
+  
+* Sponsorship
+
+If you enjoy using these templates, please consider buying me a coffee to help support its development and maintenance.
+
+[[https://www.buymeacoffee.com/kickingvegas][file:{{cookiecutter.project_name}}/docs/images/default-yellow.png]]
+  
+* Acknowledgments
+
+Thanks and appreciation to all contributors to [[https://cookiecutter.readthedocs.io/en/stable/README.html#community][Cookiecutter]].

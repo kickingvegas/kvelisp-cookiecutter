@@ -1,0 +1,98 @@
+#+startup: overview nologdone
+#+startup: showeverything
+#+TITLE: {{cookiecutter.project_full_name}} User Guide
+#+SUBTITLE: for version {{ '{{{' }}version{{ '}}}' }}
+#+AUTHOR: {{cookiecutter.author}}
+#+EMAIL: {{cookiecutter.email}}
+#+OPTIONS: ':t toc:t author:t email:t H:4 f:t
+#+LANGUAGE: en
+#+MACRO: version {{cookiecutter.version}}
+#+MACRO: kbd (eval (org-texinfo-kbd-macro $1))
+#+TEXINFO_FILENAME: {{cookiecutter.project_name}}.info
+#+TEXINFO_CLASS: casual
+#+TEXINFO_HEADER: @syncodeindex pg cp
+#+TEXINFO_HEADER: @paragraphindent none
+#+TEXINFO_TITLEPAGE: t
+#+TEXINFO_DIR_CATEGORY: Emacs misc features
+#+TEXINFO_DIR_NAME: {{cookiecutter.project_full_name}}
+#+TEXINFO_DIR_DESC: TBD
+#+TEXINFO_PRINTED_TITLE: {{cookiecutter.project_full_name}} User Guide
+
+Version: {{ '{{{' }}version{{ '}}}' }}
+
+#+TEXINFO: Copyright © {{cookiecutter.copyright}} {{'@w{'}}{{cookiecutter.author}}{{'}'}}
+
+{{cookiecutter.project_full_name}} is TBD.
+    
+#+INCLUDE: "./sponsorship.org"
+
+* Copying
+:PROPERTIES:
+:COPYING: t
+:END:
+
+Copyright © {{cookiecutter.copyright}} {{cookiecutter.author}}
+
+* Features
+:PROPERTIES:
+:CUSTOM_ID: features
+:END:
+#+CINDEX: Features
+
+TBD  
+
+* Requirements
+:PROPERTIES:
+:CUSTOM_ID: requirements
+:END:
+#+CINDEX: Requirements
+
+TBD
+
+
+* Install
+:PROPERTIES:
+:CUSTOM_ID: install
+:END:
+#+CINDEX: Install
+
+TBD
+
+* Feedback & Discussion
+#+CINDEX: Feedback
+Please report any feedback about *{{cookiecutter.project_full_name}}* to the [[https://github.com/kickingvegas/casual-suite/issues][issue tracker on GitHub]].
+
+#+CINDEX: Discussion
+To participate in general discussion about using *{{cookiecutter.project_full_name}}*, please join the [[https://github.com/kickingvegas/casual-suite/discussions][discussion group]].
+
+* Sponsorship
+#+CINDEX: Sponsorship
+
+#+INCLUDE: "./sponsorship.org"
+
+
+* About
+#+CINDEX: About
+
+[[https://github.com/kickingvegas/{{cookiecutter.project_name}}][{{cookiecutter.project_full_name}}]] was conceived and crafted by {{cookiecutter.author}} in San Francisco, California.
+
+Thank you for using *{{cookiecutter.project_full_name}}*.
+
+Always choose love.
+
+* Acknowledgments
+#+CINDEX: Acknowledgments
+
+* Main Index
+:PROPERTIES:
+:INDEX:    cp
+:END:
+
+Index for this user guide.
+
+* Variable Index
+:PROPERTIES:
+:INDEX:    vr
+:END:
+
+Variables, functions, commands, and menus referenced by this user guide.
