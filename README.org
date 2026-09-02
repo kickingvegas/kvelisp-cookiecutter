@@ -2,7 +2,7 @@
 
 Project template used by kickingvegas for Emacs Lisp projects.
 
-VERSION: 0.0.0
+VERSION: 0.0.1-rc.1
 
 * Requirements
 
