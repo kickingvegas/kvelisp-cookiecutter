@@ -5,7 +5,7 @@
 ;; Author: {{cookiecutter.author}} <{{cookiecutter.email}}>
 ;; URL: https://github.com/kickingvegas/{{cookiecutter.project_name}}
 ;; Keywords: tools
-;; Project-Version: {{cookiecutter.version}}
+;; Package-Version: {{cookiecutter.version}}
 ;; Package-Requires: ((emacs "30.1"))
 
 ;; This program is free software; you can redistribute it and/or modify
