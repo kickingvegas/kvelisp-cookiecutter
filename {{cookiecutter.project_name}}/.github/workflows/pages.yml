@@ -48,7 +48,7 @@ jobs:
 
       - name: Generate {{cookiecutter.project_full_name}} User Guide
         run: |
-          echo Generating Casual Suite User Guide
+          echo Generating {{cookiecutter.project_full_name}} User Guide
           make -C docs gen-html
 
       - name: Upload artifact

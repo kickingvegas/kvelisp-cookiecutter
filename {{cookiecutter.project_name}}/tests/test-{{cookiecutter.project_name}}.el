@@ -1,4 +1,4 @@
-;;; test-{{cookiecutter.project_name}}.el --- Casual Suite Tests      -*- lexical-binding: t; -*-
+;;; test-{{cookiecutter.project_name}}.el --- {{cookiecutter.project_name}} Tests -*- lexical-binding: t; -*-
 
 ;; Copyright (C) {{cookiecutter.copyright}} {{cookiecutter.author}}
 
